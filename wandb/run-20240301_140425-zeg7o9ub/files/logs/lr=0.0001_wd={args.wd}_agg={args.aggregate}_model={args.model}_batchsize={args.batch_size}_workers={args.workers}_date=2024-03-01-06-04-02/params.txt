@@ -1,0 +1,1 @@
+/home/jumpserver/yxt/cir/composed_image_retrieval/logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-03-01-06-04-02/params.txt

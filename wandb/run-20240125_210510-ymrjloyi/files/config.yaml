@@ -1,0 +1,248 @@
+wandb_version: 1
+
+time_suffix:
+  desc: null
+  value: true
+train_data:
+  desc: null
+  value: /mnt/vdb/yxt/huggingface/cc3m_01122022/cc/Train_GCC-training_output.csv
+val_data:
+  desc: null
+  value: null
+prompts:
+  desc: null
+  value: null
+retrieval_data:
+  desc: null
+  value: null
+demo_out:
+  desc: null
+  value: demo
+source_data:
+  desc: null
+  value: null
+target_data:
+  desc: null
+  value: null
+target_pad:
+  desc: null
+  value: false
+query_file:
+  desc: null
+  value: null
+eval_mode:
+  desc: null
+  value: coco
+middle_dim:
+  desc: null
+  value: 512
+droprate:
+  desc: null
+  value: 0.1
+n_layer:
+  desc: null
+  value: 2
+dataset_type:
+  desc: null
+  value: auto
+dataset_type_val:
+  desc: null
+  value: auto
+csv_separator:
+  desc: null
+  value: "\t"
+csv_img_key:
+  desc: null
+  value: filepath
+csv_caption_key:
+  desc: null
+  value: title
+imagenet_val:
+  desc: null
+  value: null
+imagenet_v2:
+  desc: null
+  value: null
+logs:
+  desc: null
+  value: ./logs/
+name:
+  desc: null
+  value: lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-13-04-45
+workers:
+  desc: null
+  value: 8
+batch_size:
+  desc: null
+  value: 512
+epochs:
+  desc: null
+  value: 30
+lr:
+  desc: null
+  value: 0.0001
+beta1:
+  desc: null
+  value: 0.9
+beta2:
+  desc: null
+  value: 0.98
+eps:
+  desc: null
+  value: 1.0e-06
+wd:
+  desc: null
+  value: 0.1
+warmup:
+  desc: null
+  value: 10000
+use_bn_sync:
+  desc: null
+  value: false
+use_debiased_sampler:
+  desc: null
+  value: false
+use_prefix:
+  desc: null
+  value: false
+gpu:
+  desc: null
+  value: 0
+skip_scheduler:
+  desc: null
+  value: false
+save_frequency:
+  desc: null
+  value: 1
+save_most_recent:
+  desc: null
+  value: false
+zeroshot_frequency:
+  desc: null
+  value: 2
+regression_frequency:
+  desc: null
+  value: 2
+resume:
+  desc: null
+  value: null
+precision:
+  desc: null
+  value: amp
+model:
+  desc: null
+  value: ViT-L/14
+openai_pretrained:
+  desc: null
+  value: true
+dist_url:
+  desc: null
+  value: tcp://127.0.0.1:6100
+dist_backend:
+  desc: null
+  value: nccl
+skip_aggregate:
+  desc: null
+  value: false
+report_to:
+  desc: null
+  value: wandb
+wandb_notes:
+  desc: null
+  value: ''
+C:
+  desc: null
+  value: 3.16
+debug:
+  desc: null
+  value: false
+copy_codebase:
+  desc: null
+  value: false
+dp:
+  desc: null
+  value: false
+multigpu:
+  desc: null
+  value: null
+distributed:
+  desc: null
+  value: true
+f:
+  desc: null
+  value: im2text
+n_ctx:
+  desc: null
+  value: 3
+n_img:
+  desc: null
+  value: 1
+prompt:
+  desc: null
+  value: learnable
+aggregate:
+  desc: null
+  value: true
+log_path:
+  desc: null
+  value: ./logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-13-04-45/out.log
+ngpus_per_node:
+  desc: null
+  value: 4
+wandb:
+  desc: null
+  value: true
+tensorboard:
+  desc: null
+  value: false
+tensorboard_path:
+  desc: null
+  value: ''
+checkpoint_path:
+  desc: null
+  value: ./logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-13-04-45/checkpoints
+log_level:
+  desc: null
+  value: 20
+world_size:
+  desc: null
+  value: 4
+rank:
+  desc: null
+  value: 0
+save_logs:
+  desc: null
+  value: true
+train_sz:
+  desc: null
+  value: 2704098
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.18
+    cli_version: 0.16.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1706187910.360928
+    t:
+      1:
+      - 1
+      - 41
+      - 49
+      - 55
+      2:
+      - 1
+      - 41
+      - 49
+      - 55
+      3:
+      - 3
+      - 16
+      - 23
+      4: 3.8.18
+      5: 0.16.2
+      8:
+      - 5
+      - 9
+      13: linux-x86_64

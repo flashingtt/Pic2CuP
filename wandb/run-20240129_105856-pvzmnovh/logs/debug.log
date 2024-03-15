@@ -1,0 +1,27 @@
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_setup.py:_flush():76] Current SDK version is 0.16.2
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_setup.py:_flush():76] Configure stats pid to 1413484
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_setup.py:_flush():76] Loading settings from /home/jumpserver/.config/wandb/settings
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_setup.py:_flush():76] Loading settings from /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/settings
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program_abspath': '/home/jumpserver/yxt/cir/composed_image_retrieval/src/main.py', 'program': '/home/jumpserver/yxt/cir/composed_image_retrieval/src/main.py'}
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_init.py:_log_setup():526] Logging user logs to /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240129_105856-pvzmnovh/logs/debug.log
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_init.py:_log_setup():527] Logging internal logs to /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240129_105856-pvzmnovh/logs/debug-internal.log
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_init.py:init():566] calling init triggers
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'time_suffix': True, 'train_data': '/mnt/vdb/yxt/huggingface/cc3m_01122022/cc/Train_GCC-training_output.csv', 'val_data': None, 'prompts': None, 'retrieval_data': None, 'demo_out': 'demo', 'source_data': None, 'target_data': None, 'target_pad': False, 'query_file': None, 'eval_mode': 'coco', 'middle_dim': 512, 'droprate': 0.1, 'n_layer': 2, 'dataset_type': 'auto', 'dataset_type_val': 'auto', 'csv_separator': '\t', 'csv_img_key': 'filepath', 'csv_caption_key': 'title', 'imagenet_val': None, 'imagenet_v2': None, 'logs': './logs/', 'name': 'lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-29-02-58-33', 'workers': 8, 'batch_size': 1024, 'epochs': 30, 'lr': 0.0001, 'beta1': 0.9, 'beta2': 0.98, 'eps': 1e-06, 'wd': 0.1, 'warmup': 10000, 'use_bn_sync': False, 'use_debiased_sampler': False, 'use_prefix': False, 'gpu': 0, 'skip_scheduler': False, 'save_frequency': 1, 'save_most_recent': False, 'zeroshot_frequency': 2, 'regression_frequency': 2, 'resume': None, 'precision': 'amp', 'model': 'ViT-L/14', 'openai_pretrained': True, 'dist_url': 'tcp://127.0.0.1:6100', 'dist_backend': 'nccl', 'skip_aggregate': False, 'report_to': 'wandb', 'wandb_notes': '', 'C': 3.16, 'debug': False, 'copy_codebase': False, 'dp': False, 'multigpu': None, 'distributed': True, 'f': 'im2text', 'n_ctx': 3, 'n_img': 1, 'prompt': 'learnable', 'aggregate': True, 'log_path': './logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-29-02-58-33/out.log', 'ngpus_per_node': 4, 'wandb': True, 'tensorboard': False, 'tensorboard_path': '', 'checkpoint_path': './logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-29-02-58-33/checkpoints', 'log_level': 20, 'world_size': 4, 'rank': 0, 'save_logs': True, 'train_sz': 2704098}
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_init.py:init():616] starting backend
+2024-01-29 10:58:56,726 INFO    MainThread:1413484 [wandb_init.py:init():620] setting up manager
+2024-01-29 10:58:56,727 INFO    MainThread:1413484 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-01-29 10:58:56,728 INFO    MainThread:1413484 [wandb_init.py:init():628] backend started and connected
+2024-01-29 10:58:56,731 INFO    MainThread:1413484 [wandb_init.py:init():720] updated telemetry
+2024-01-29 10:58:56,832 INFO    MainThread:1413484 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-01-29 10:58:57,792 INFO    MainThread:1413484 [wandb_run.py:_on_init():2254] communicating current version
+2024-01-29 10:58:58,469 INFO    MainThread:1413484 [wandb_run.py:_on_init():2263] got version response 
+2024-01-29 10:58:58,469 INFO    MainThread:1413484 [wandb_init.py:init():804] starting run threads in backend
+2024-01-29 10:59:00,534 INFO    MainThread:1413484 [wandb_run.py:_console_start():2233] atexit reg
+2024-01-29 10:59:00,534 INFO    MainThread:1413484 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-01-29 10:59:00,534 INFO    MainThread:1413484 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-01-29 10:59:00,534 INFO    MainThread:1413484 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-01-29 10:59:00,535 INFO    MainThread:1413484 [wandb_init.py:init():847] run started, returning control to user process
+2024-01-30 00:34:52,549 WARNING MsgRouterThr:1413484 [router.py:message_loop():77] message_loop has been closed

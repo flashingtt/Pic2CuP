@@ -1,0 +1,147 @@
+2024-01-25 23:07:57,639 INFO    StreamThr :4020555 [internal.py:wandb_internal():86] W&B internal server running at pid: 4020555, started at: 2024-01-25 23:07:57.638980
+2024-01-25 23:07:57,641 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: status
+2024-01-25 23:07:57,642 INFO    WriterThread:4020555 [datastore.py:open_for_write():87] open: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/run-qn4lxlpw.wandb
+2024-01-25 23:07:57,642 DEBUG   SenderThread:4020555 [sender.py:send():382] send: header
+2024-01-25 23:07:57,749 DEBUG   SenderThread:4020555 [sender.py:send():382] send: run
+2024-01-25 23:07:58,620 INFO    SenderThread:4020555 [dir_watcher.py:__init__():211] watching files in: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files
+2024-01-25 23:07:58,620 INFO    SenderThread:4020555 [sender.py:_start_run_threads():1136] run started: qn4lxlpw with start time 1706195277.638904
+2024-01-25 23:07:58,627 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: check_version
+2024-01-25 23:07:58,627 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: check_version
+2024-01-25 23:08:01,591 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: run_start
+2024-01-25 23:08:01,600 DEBUG   HandlerThread:4020555 [system_info.py:__init__():27] System info init
+2024-01-25 23:08:01,600 DEBUG   HandlerThread:4020555 [system_info.py:__init__():42] System info init done
+2024-01-25 23:08:01,600 INFO    HandlerThread:4020555 [system_monitor.py:start():194] Starting system monitor
+2024-01-25 23:08:01,600 INFO    SystemMonitor:4020555 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-25 23:08:01,601 INFO    HandlerThread:4020555 [system_monitor.py:probe():214] Collecting system info
+2024-01-25 23:08:01,601 INFO    SystemMonitor:4020555 [interfaces.py:start():190] Started cpu monitoring
+2024-01-25 23:08:01,602 INFO    SystemMonitor:4020555 [interfaces.py:start():190] Started disk monitoring
+2024-01-25 23:08:01,602 INFO    SystemMonitor:4020555 [interfaces.py:start():190] Started gpu monitoring
+2024-01-25 23:08:01,603 INFO    SystemMonitor:4020555 [interfaces.py:start():190] Started memory monitoring
+2024-01-25 23:08:01,603 INFO    SystemMonitor:4020555 [interfaces.py:start():190] Started network monitoring
+2024-01-25 23:08:01,654 DEBUG   HandlerThread:4020555 [system_info.py:probe():151] Probing system
+2024-01-25 23:08:01,658 DEBUG   HandlerThread:4020555 [system_info.py:_probe_git():136] Probing git
+2024-01-25 23:08:01,666 DEBUG   HandlerThread:4020555 [system_info.py:_probe_git():144] Probing git done
+2024-01-25 23:08:01,666 DEBUG   HandlerThread:4020555 [system_info.py:probe():199] Probing system done
+2024-01-25 23:08:01,666 DEBUG   HandlerThread:4020555 [system_monitor.py:probe():223] {'os': 'Linux-5.4.0-149-generic-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2024-01-25T15:08:01.654648', 'startedAt': '2024-01-25T15:07:57.635356', 'docker': None, 'cuda': None, 'args': ('--save-frequency', '1', '--train-data', '/mnt/vdb/yxt/huggingface/cc3m_01122022/cc/Train_GCC-training_output.csv', '--warmup', '10000', '--batch-size', '1024', '--lr', '1e-4', '--wd', '0.1', '--epochs', '30', '--workers', '8', '--openai-pretrained', '--model', 'ViT-L/14', '--report-to', 'wandb', '--n-ctx', '3', '--n-img', '1', '--prompt', 'learnable', '--dist-url', 'tcp://127.0.0.1:6300'), 'state': 'running', 'program': '/home/jumpserver/yxt/cir/composed_image_retrieval/src/main.py', 'codePathLocal': 'src/main.py', 'codePath': 'src/main.py', 'git': {'remote': 'https://github.com/google-research/composed_image_retrieval.git', 'commit': '8c053297c2fae9cd17ddcded48445a4f47208dbd'}, 'email': None, 'root': '/home/jumpserver/yxt/cir/composed_image_retrieval', 'host': 'iv-yc34g30x2va8j5qux1xx', 'username': 'jumpserver', 'executable': '/home/jumpserver/anaconda3/envs/open-clip/bin/python', 'cpu_count': 56, 'cpu_count_logical': 112, 'cpu_freq': {'current': 2793.4359999999933, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}, {'current': 2793.436, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 491.8924903869629, 'used': 219.56928253173828}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}], 'memory': {'total': 1929.2494468688965}}
+2024-01-25 23:08:01,666 INFO    HandlerThread:4020555 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-25 23:08:01,666 INFO    HandlerThread:4020555 [system_monitor.py:probe():227] Publishing system info
+2024-01-25 23:08:01,666 DEBUG   HandlerThread:4020555 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-25 23:08:02,622 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/conda-environment.yaml
+2024-01-25 23:08:03,484 DEBUG   HandlerThread:4020555 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-25 23:08:03,486 INFO    HandlerThread:4020555 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-25 23:08:03,489 DEBUG   SenderThread:4020555 [sender.py:send():382] send: files
+2024-01-25 23:08:03,490 INFO    SenderThread:4020555 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-25 23:08:03,490 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: status_report
+2024-01-25 23:08:03,494 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-25 23:08:03,494 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-25 23:08:03,494 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: python_packages
+2024-01-25 23:08:03,495 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: stop_status
+2024-01-25 23:08:03,496 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-25 23:08:03,621 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/conda-environment.yaml
+2024-01-25 23:08:03,622 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-15-07-28/params.txt
+2024-01-25 23:08:03,622 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/requirements.txt
+2024-01-25 23:08:03,622 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/wandb-metadata.json
+2024-01-25 23:08:03,622 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/logs
+2024-01-25 23:08:03,622 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-15-07-28
+2024-01-25 23:08:04,281 DEBUG   SenderThread:4020555 [sender.py:send():382] send: telemetry
+2024-01-25 23:08:04,281 DEBUG   SenderThread:4020555 [sender.py:send():382] send: telemetry
+2024-01-25 23:08:04,281 DEBUG   SenderThread:4020555 [sender.py:send():382] send: files
+2024-01-25 23:08:04,281 INFO    SenderThread:4020555 [sender.py:_save_file():1403] saving file logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-15-07-28/params.txt with policy live
+2024-01-25 23:08:05,309 INFO    wandb-upload_0:4020555 [upload_job.py:push():131] Uploaded file /tmp/tmpf38ayio7wandb/f6cnr17z-wandb-metadata.json
+2024-01-25 23:08:05,524 INFO    wandb-upload_1:4020555 [upload_job.py:push():131] Uploaded file /tmp/tmpf38ayio7wandb/l122jvb3-logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-15-07-28/params.txt
+2024-01-25 23:08:09,283 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: status_report
+2024-01-25 23:08:14,284 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: status_report
+2024-01-25 23:08:18,747 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-25 23:08:18,747 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: stop_status
+2024-01-25 23:08:18,796 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-25 23:08:19,433 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: status_report
+2024-01-25 23:08:20,377 DEBUG   SenderThread:4020555 [sender.py:send():382] send: exit
+2024-01-25 23:08:20,377 INFO    SenderThread:4020555 [sender.py:send_exit():589] handling exit code: 0
+2024-01-25 23:08:20,378 INFO    SenderThread:4020555 [sender.py:send_exit():591] handling runtime: 18
+2024-01-25 23:08:20,380 INFO    SenderThread:4020555 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-25 23:08:20,380 INFO    SenderThread:4020555 [sender.py:send_exit():597] send defer
+2024-01-25 23:08:20,380 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:20,380 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-25 23:08:20,381 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:20,381 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-25 23:08:20,381 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 1
+2024-01-25 23:08:20,381 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:20,381 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-25 23:08:20,381 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:20,381 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-25 23:08:20,381 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 2
+2024-01-25 23:08:20,382 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:20,382 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-25 23:08:20,382 INFO    HandlerThread:4020555 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-25 23:08:20,382 DEBUG   SystemMonitor:4020555 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-25 23:08:20,382 DEBUG   SystemMonitor:4020555 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-25 23:08:20,382 DEBUG   SystemMonitor:4020555 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-25 23:08:20,384 INFO    HandlerThread:4020555 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-25 23:08:20,384 INFO    HandlerThread:4020555 [interfaces.py:finish():202] Joined disk monitor
+2024-01-25 23:08:20,627 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/output.log
+2024-01-25 23:08:20,627 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/wandb-summary.json
+2024-01-25 23:08:21,604 INFO    HandlerThread:4020555 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-25 23:08:21,604 INFO    HandlerThread:4020555 [interfaces.py:finish():202] Joined memory monitor
+2024-01-25 23:08:21,604 INFO    HandlerThread:4020555 [interfaces.py:finish():202] Joined network monitor
+2024-01-25 23:08:21,604 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-25 23:08:21,605 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:21,605 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-25 23:08:21,605 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 3
+2024-01-25 23:08:21,606 DEBUG   SenderThread:4020555 [sender.py:send():382] send: stats
+2024-01-25 23:08:21,607 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: poll_exit
+2024-01-25 23:08:21,607 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:21,607 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-25 23:08:21,608 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:21,608 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-25 23:08:21,608 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 4
+2024-01-25 23:08:21,608 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:21,608 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-25 23:08:21,608 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:21,608 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-25 23:08:21,608 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 5
+2024-01-25 23:08:21,608 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:21,608 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-25 23:08:21,608 DEBUG   SenderThread:4020555 [sender.py:send():382] send: summary
+2024-01-25 23:08:21,609 INFO    SenderThread:4020555 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-25 23:08:21,610 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:21,610 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-25 23:08:21,610 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 6
+2024-01-25 23:08:21,610 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:21,610 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-25 23:08:21,610 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:21,610 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-25 23:08:21,616 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: status_report
+2024-01-25 23:08:21,628 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/wandb-summary.json
+2024-01-25 23:08:22,108 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 7
+2024-01-25 23:08:22,108 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: defer
+2024-01-25 23:08:22,109 INFO    HandlerThread:4020555 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-25 23:08:22,109 DEBUG   SenderThread:4020555 [sender.py:send_request():409] send_request: defer
+2024-01-25 23:08:22,109 INFO    SenderThread:4020555 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-25 23:08:22,378 DEBUG   HandlerThread:4020555 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-25 23:08:22,628 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/output.log
+2024-01-25 23:08:22,628 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/config.yaml
+2024-01-25 23:08:22,667 WARNING StreamThr :4020555 [internal.py:is_dead():414] Internal process exiting, parent pid 4019929 disappeared
+2024-01-25 23:08:22,667 ERROR   StreamThr :4020555 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-01-25 23:08:23,378 INFO    HandlerThread:4020555 [handler.py:finish():869] shutting down handler
+2024-01-25 23:08:23,379 INFO    WriterThread:4020555 [datastore.py:close():296] close: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/run-qn4lxlpw.wandb
+2024-01-25 23:08:24,063 INFO    SenderThread:4020555 [sender.py:transition_state():617] send defer: 8
+2024-01-25 23:08:24,063 INFO    SenderThread:4020555 [sender.py:finish():1572] shutting down sender
+2024-01-25 23:08:24,063 INFO    SenderThread:4020555 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-25 23:08:24,629 INFO    Thread-12 :4020555 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/output.log
+2024-01-25 23:08:24,629 INFO    SenderThread:4020555 [dir_watcher.py:finish():388] scan: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files
+2024-01-25 23:08:24,630 INFO    SenderThread:4020555 [dir_watcher.py:finish():402] scan save: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/requirements.txt requirements.txt
+2024-01-25 23:08:24,630 INFO    SenderThread:4020555 [dir_watcher.py:finish():402] scan save: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/conda-environment.yaml conda-environment.yaml
+2024-01-25 23:08:24,631 INFO    SenderThread:4020555 [dir_watcher.py:finish():402] scan save: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/output.log output.log
+2024-01-25 23:08:24,633 INFO    SenderThread:4020555 [dir_watcher.py:finish():402] scan save: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/wandb-summary.json wandb-summary.json
+2024-01-25 23:08:24,633 INFO    SenderThread:4020555 [dir_watcher.py:finish():402] scan save: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/wandb-metadata.json wandb-metadata.json
+2024-01-25 23:08:24,633 INFO    SenderThread:4020555 [dir_watcher.py:finish():402] scan save: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/config.yaml config.yaml
+2024-01-25 23:08:24,639 INFO    SenderThread:4020555 [dir_watcher.py:finish():402] scan save: /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-15-07-28/params.txt logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-25-15-07-28/params.txt
+2024-01-25 23:08:24,640 INFO    SenderThread:4020555 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-25 23:08:24,640 INFO    SenderThread:4020555 [file_pusher.py:join():181] waiting for file pusher
+2024-01-25 23:08:25,584 INFO    wandb-upload_0:4020555 [upload_job.py:push():131] Uploaded file /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/requirements.txt
+2024-01-25 23:08:25,584 INFO    wandb-upload_2:4020555 [upload_job.py:push():131] Uploaded file /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/conda-environment.yaml
+2024-01-25 23:08:26,095 INFO    wandb-upload_1:4020555 [upload_job.py:push():131] Uploaded file /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/output.log
+2024-01-25 23:08:26,452 INFO    wandb-upload_4:4020555 [upload_job.py:push():131] Uploaded file /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/config.yaml
+2024-01-25 23:08:26,458 INFO    wandb-upload_3:4020555 [upload_job.py:push():131] Uploaded file /home/jumpserver/yxt/cir/composed_image_retrieval/wandb/run-20240125_230757-qn4lxlpw/files/wandb-summary.json
+2024-01-25 23:08:27,144 INFO    SenderThread:4020555 [file_stream.py:finish():595] file stream finish called
+2024-01-25 23:08:28,223 INFO    SenderThread:4020555 [file_stream.py:finish():599] file stream finish is done
