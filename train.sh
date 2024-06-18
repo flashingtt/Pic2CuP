@@ -16,9 +16,9 @@ python -u src/main.py \
 	--report-to wandb \
 	--n-ctx 3 \
 	--n-img 1 \
-	--pseudo-only
-	# --prompt learnable \
-	# --meta_prompt \
+	--pseudo-only \
+	--prompt learnable \
+	--meta_prompt \
 	# --transform targetpad
 	# --dist-url tcp://127.0.0.1:6300 \
 	# --f im2multitext
