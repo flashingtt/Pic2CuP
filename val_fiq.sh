@@ -38,6 +38,7 @@ python src/eval_retrieval.py \
 #     --batch-size 1024 \
 #     --prompt learnable \
 #     --meta_prompt \
+
     # --target-pad \
     # --visual-compared \
     # --best-visual-path /home/jumpserver/yxt/cir/composed_image_retrieval/logs/2024-03-04-16-07-24_best/visual_result_best/fashioniq_$cloth_type.txt \
