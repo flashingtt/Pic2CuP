@@ -13,12 +13,12 @@ python -u src/main.py \
 	--workers 8 \
 	--openai-pretrained \
 	--model ViT-L/14 \
-	--report-to wandb \
 	--n-ctx 3 \
 	--n-img 1 \
 	--pseudo-only \
 	--prompt learnable \
 	--meta_prompt \
+	# --report-to wandb \
 	# --transform targetpad
 	# --dist-url tcp://127.0.0.1:6300 \
 	# --f im2multitext

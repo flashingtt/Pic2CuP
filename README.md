@@ -24,7 +24,18 @@ pip install -r requirement.txt
 
 ### Prepare Datasets
 
-1. Get CC3M from 
+1. Get CC3M from https://huggingface.co/datasets/yxchng/cc3m_01122022
+
+2. Go to https://ai.google.com/research/ConceptualCaptions/download and press download button to get a 500MB .tsv file
+
+3. Download datasets
+
+```sh
+GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/datasets/yxchng/cc3m_01122022
+cd cc3m_01122022
+git lfs pull --include="*.tar"
+tar -xvf *.tar
+```
 
 ## Running
 

@@ -1,0 +1,1 @@
+/home/jumpserver/yxt/cir/tmp/Pic2CuP/logs/lr=0.0001_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-06-22-13-55-09/params.txt

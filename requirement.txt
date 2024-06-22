@@ -1,0 +1,9 @@
+tensorboard
+six
+tqdm
+ftfy
+regex
+braceexpand
+pandas
+pyarrow
+wandb
